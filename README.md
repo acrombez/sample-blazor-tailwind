@@ -7,3 +7,7 @@
 - npx tailwindcss -i .\Styles\App.css -o .\wwwroot\css\app.css --watch
 - 
 
+## Toggling dark mode
+
+- https://dev.to/rasheedmozaffar/dark-mode-with-blazor-and-tailwind-css-22on
+- 
