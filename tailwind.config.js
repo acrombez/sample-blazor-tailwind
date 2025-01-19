@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ['./**/*.{razor,html}'],
     darkMode: 'class',
