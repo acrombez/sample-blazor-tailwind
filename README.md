@@ -1,4 +1,4 @@
-﻿## Adding Tailwind CSS to Blazor
+﻿## Adding Tailwind CSS v3 to Blazor
 
 - https://chrissainty.com/adding-tailwind-css-v3-to-a-blazor-app/
 - https://youtu.be/GKbTgovP-VU?si=EYCJ1qjfz9gd8fEK
@@ -9,6 +9,13 @@
 	- Import tailwind modules in App.css
 	- Link css/app.css in index.html
 	- npx tailwindcss -i .\Styles\App.css -o .\wwwroot\css\app.css --watch
+
+## Upgrading to Tailwind CSS v4
+
+- https://tailwindcss.com/docs/upgrade-guide
+- https://dev.to/sirneij/tailwindcss-v40-upgrading-from-v3-with-some-plugins-572f
+- npx @tailwindcss/upgrade@next --force
+- npx @tailwindcss/cli -i .\Styles\App.css -o .\wwwroot\css\app.css --watch
 
 ## Toggling dark mode
 

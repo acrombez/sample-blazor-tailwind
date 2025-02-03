@@ -1,6 +1,8 @@
-﻿@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+@custom-variant dark (&:is(.dark *));
 
 h1 {
     @apply font-extrabold text-7xl tracking-wide mb-6;
