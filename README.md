@@ -17,6 +17,11 @@
 - npx @tailwindcss/upgrade@next --force
 - npx @tailwindcss/cli -i .\Styles\App.css -o .\wwwroot\css\app.css --watch
 
+## Uograding to daisyUI 5 beta
+
+- npm i -D daisyui@beta
+- Add @plugin "daisyui"; to App.css
+
 ## Toggling dark mode
 
 - https://dev.to/rasheedmozaffar/dark-mode-with-blazor-and-tailwind-css-22on
