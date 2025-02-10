@@ -1,7 +1,11 @@
 ﻿export function setTheme(theme) {
-    if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
-    } else if (theme === 'light') {
-        document.documentElement.classList.remove('dark');
+    let mainLayout = document.getElementById("main-layout");
+
+    if (mainLayout) {
+        if (theme === 'dark') {
+            mainLayout.setAttribute("data-theme", "dark");
+        } else if (theme === 'light') {
+            mainLayout.setAttribute("data-theme", "light");
+        }
     }
 }

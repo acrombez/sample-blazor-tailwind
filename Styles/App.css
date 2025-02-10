@@ -1,11 +1,10 @@
 @import 'tailwindcss';
-@plugin "@tailwindcss/typography";
-@plugin "@tailwindcss/forms";
+
 @plugin "daisyui" {
     themes: light --default, dark --prefersdark;
 }
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 h1 {
     @apply font-extrabold text-7xl tracking-wide mb-6;
