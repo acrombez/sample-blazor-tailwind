@@ -9,8 +9,18 @@
     <link href="css/app.css" rel="stylesheet" />
 </head>
 
-<body class="overflow-x-hidden h-full bg-gray-100 dark:bg-gray-800 dark:bg-gray-800 dark:text-white">
-    <div id="app" class="h-screen">Loading...</div>
+<body class="overflow-x-hidden h-full base-200 base-content">
+    <div id="app" class="h-screen">
+        <div class="flex justify-center pt-32 h-16">
+            <span class="loading loading-spinner text-primary h-12 w-12"></span>
+            <span class="loading loading-spinner text-secondary h-12 w-12"></span>
+            <span class="loading loading-spinner text-accent h-12 w-12"></span>
+            <span class="loading loading-spinner text-info h-12 w-12"></span>
+            <span class="loading loading-spinner text-success h-12 w-12"></span>
+            <span class="loading loading-spinner text-warning h-12 w-12"></span>
+            <span class="loading loading-spinner text-error h-12 w-12"></span>
+        </div>
+    </div>
 
     <div id="blazor-error-ui" class="hidden">
         <div class="flex justify-between bg-yellow-100 bottom-0 left-0 fixed w-full z-50 py-2.5 px-5 border-t-2 border-gray-200 text-lg dark:bg-yellow-300 dark:text-gray-800 dark:border-gray-800">
