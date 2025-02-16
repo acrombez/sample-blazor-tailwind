@@ -363,5 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # App specific ignores
-/wwwroot/css/app.css
 /package-lock.json
+/package.json
