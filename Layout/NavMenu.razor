@@ -1,15 +1,13 @@
-﻿<header class="base-100 px-10 py-4 shadow-md flex items-center justify-between">
-    <div class="flex items-center">
+﻿<div class="navbar bg-base-100 shadow-sm">
+    <div class="flex flex-row flex-1 items-center">
         <img src="Blazor.png" alt="blazor logo" />
-
-        <nav class="flex ml-10 font-semibold text-lg base-content">
-            <NavLink ActiveClass="text-primary" href="" Match="NavLinkMatch.All" class="mr-10 font-semibold">Home</NavLink>
-            <NavLink ActiveClass="text-primary" href="counter" class="mr-10 font-semibold">Counter</NavLink>
-            <NavLink ActiveClass="text-primary" href="fetchdata" class="font-semibold">Fetch data</NavLink>
-        </nav>
+        <div>
+            <NavLink ActiveClass="text-primary" href="" Match="NavLinkMatch.All" class="font-semibold ml-6">Home</NavLink>
+            <NavLink ActiveClass="text-primary" href="counter" class="font-semibold ml-4">Counter</NavLink>
+            <NavLink ActiveClass="text-primary" href="fetchdata" class="font-semibold ml-4">Fetch data</NavLink>
+        </div>
     </div>
-    <div class="flex items-center">
+    <div class="flex-none">
         <DarkModeToggle />
     </div>
-</header>
-
+</div>
