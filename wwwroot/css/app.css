@@ -3293,17 +3293,11 @@
   .w-10 {
     width: calc(var(--spacing) * 10);
   }
-  .w-24 {
-    width: calc(var(--spacing) * 24);
-  }
   .w-25 {
     width: calc(var(--spacing) * 25);
   }
   .w-50 {
     width: calc(var(--spacing) * 50);
-  }
-  .w-52 {
-    width: calc(var(--spacing) * 52);
   }
   .w-64 {
     width: calc(var(--spacing) * 64);
@@ -3313,6 +3307,12 @@
   }
   .w-12 {
     width: calc(var(--spacing) * 12);
+  }
+  .w-24 {
+    width: calc(var(--spacing) * 24);
+  }
+  .w-52 {
+    width: calc(var(--spacing) * 52);
   }
   .w-75 {
     width: calc(var(--spacing) * 75);
@@ -4295,6 +4295,21 @@
   .dark\:text-white {
     &:where([data-theme=dark], [data-theme=dark] *) {
       color: var(--color-white);
+    }
+  }
+  .dark\:shadow-gray-400 {
+    &:where([data-theme=dark], [data-theme=dark] *) {
+      --tw-shadow-color: var(--color-gray-400);
+    }
+  }
+  .dark\:shadow-gray-600 {
+    &:where([data-theme=dark], [data-theme=dark] *) {
+      --tw-shadow-color: var(--color-gray-600);
+    }
+  }
+  .dark\:shadow-white {
+    &:where([data-theme=dark], [data-theme=dark] *) {
+      --tw-shadow-color: var(--color-white);
     }
   }
   .dark\:odd\:bg-purple-500 {
