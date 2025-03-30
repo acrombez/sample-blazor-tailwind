@@ -1,26 +1,9 @@
-﻿## Adding Tailwind CSS v3 to Blazor
+﻿## Adding Tailwind CSS and daisyUI to Blazor
 
-- https://chrissainty.com/adding-tailwind-css-v3-to-a-blazor-app/
-- https://youtu.be/GKbTgovP-VU?si=EYCJ1qjfz9gd8fEK
-- https://dev.to/rasheedmozaffar/using-tailwind-css-with-net-blazor-4ng7
-- Summary:
-	- npx tailwindcss init
-	- Set content in tailwind.config.js
-	- Import tailwind modules in App.css
-	- Link css/app.css in index.html
-	- npx tailwindcss -i .\Styles\App.css -o .\wwwroot\css\app.css --watch
-
-## Upgrading to Tailwind CSS v4
-
-- https://tailwindcss.com/docs/upgrade-guide
-- https://dev.to/sirneij/tailwindcss-v40-upgrading-from-v3-with-some-plugins-572f
-- npx @tailwindcss/upgrade@next --force
-- npx @tailwindcss/cli -i .\Styles\App.css -o .\wwwroot\css\app.css --watch
-
-## Uograding to daisyUI 5 beta
-
-- npm i -D daisyui@beta
-- Add @plugin "daisyui"; to App.css
+1. Install Node.js and npm
+1. Install Tailwind CSS: `npm install tailwindcss @tailwindcss/cli`
+1. Install daisyUI: `npm install daisyui`
+1. Generate Tailwind CSS output file: `npx @tailwindcss/cli -i .\Styles\App.css -o .\wwwroot\css\app.css --watch --minify`
 
 ## Toggling dark mode
 
