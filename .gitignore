@@ -364,4 +364,4 @@ FodyWeavers.xsd
 
 # App specific ignores
 /package-lock.json
-/package.json
+
